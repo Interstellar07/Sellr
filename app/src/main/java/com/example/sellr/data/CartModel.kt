@@ -1,3 +1,7 @@
 package com.example.sellr.data
 
-data class CartModel ( var item_name: String, var item_price: String,var item_image: String)
+data class CartModel ( var productName: String?="",
+                       var price: String?="",
+                       var imagePrimary: String?="",
+                       var sold: Boolean?=false,
+)
